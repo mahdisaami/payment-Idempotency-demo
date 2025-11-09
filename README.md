@@ -89,17 +89,6 @@ Returns either a 200 or 500 randomly to simulate instability.
 
 ---
 
-## 🧱 Concepts Demonstrated
-
-| Concept | Description |
-|----------|-------------|
-| Idempotency | Ensures repeated requests don’t create duplicate payments |
-| Retry Logic | Automatically retries failed external API calls |
-| Exponential Backoff | Increases delay between retries (1s → 2s → 4s) |
-| Fault Tolerance | Handles unreliable external services gracefully |
-
----
-
 ## 🧪 Example Flow
 
 1. Client calls `/payments/start/`
